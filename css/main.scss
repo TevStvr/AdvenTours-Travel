@@ -137,6 +137,7 @@ header {
   width: 100%;
   text-align: right;
   animation: moveDown 2s ease-in-out forwards;
+  margin-bottom: 3em;
 
   h1 {
     display: block;
@@ -205,6 +206,7 @@ header {
   transition: 1s all ease;
   justify-content: space-around;
   align-content: center;
+  margin-bottom: 5em;
 
   img {
     object-fit: cover;
@@ -241,9 +243,12 @@ header {
   opacity: 100%;
 }
 
+//.............................. PACKAGES SECTION
+
 .Packages-page {
   height: 100vh;
   width: 100%;
+  margin-bottom: 3em;
 }
 
 .packages-wrapper {
@@ -340,6 +345,7 @@ header {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 //.............................. REVIEWS/SLIDER SECTION
 .Reviews {
   display: flex;
@@ -357,24 +363,25 @@ header {
 
   .review-swiper {
     width: 100%;
-    height: 15em;
+    height: 25em;
     margin-bottom: 3em;
   }
 
   .slide {
     border: 1px solid black;
     border-radius: 1em;
-    padding: 3em 1em;
+    padding: 0.5em 0.5em;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 7rem;
-    width: 7rem;
+    height: 8rem;
+    width: 5rem;
     font-size: 0.8rem;
   }
   .text {
-    padding: 1rem;
+    padding: 0.5rem;
     line-height: 1;
+    width: 50%;
   }
 
   .user {
@@ -397,9 +404,27 @@ header {
 }
 
 Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   height: 30vh;
   width: 100%;
   background-color: $Brick;
+  font-size: 0.8em;
+  color: $Sienna;
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+
+    a {
+      color: $Sienna;
+    }
+  }
+
+  img {
+    height: 3em;
+  }
 }
 //.............................. DARK MODE
 

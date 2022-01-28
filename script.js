@@ -76,7 +76,7 @@ function showPackages(n) {
 const swiper = new Swiper(".review-swiper", {
   loop: true,
   grabCursor: true,
-  spaceBetween: 20,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
