@@ -135,6 +135,7 @@ header .menu-svg path {
   text-align: right;
   -webkit-animation: moveDown 2s ease-in-out forwards;
           animation: moveDown 2s ease-in-out forwards;
+  margin-bottom: 3em;
 }
 
 .Landing-page h1 {
@@ -211,6 +212,7 @@ header .menu-svg path {
       justify-content: space-around;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin-bottom: 5em;
 }
 
 .Explore-page img {
@@ -257,6 +259,7 @@ header .menu-svg path {
 .Packages-page {
   height: 100vh;
   width: 100%;
+  margin-bottom: 3em;
 }
 
 .packages-wrapper {
@@ -399,31 +402,30 @@ header .menu-svg path {
 
 .Reviews .review-swiper {
   width: 100%;
-  height: 15em;
+  height: 25em;
   margin-bottom: 3em;
 }
 
 .Reviews .slide {
   border: 1px solid black;
   border-radius: 1em;
-  padding: 3em 1em;
+  padding: 0.5em 0.5em;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 7rem;
-  width: 7rem;
+  height: 8rem;
+  width: 5rem;
   font-size: 0.8rem;
 }
 
 .Reviews .text {
-  padding: 1rem;
+  padding: 0.5rem;
   line-height: 1;
+  width: 50%;
 }
 
 .Reviews .user {
@@ -452,9 +454,35 @@ header .menu-svg path {
 }
 
 Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 30vh;
   width: 100%;
   background-color: #ad2e24;
+  font-size: 0.8em;
+  color: #ea8c55;
+}
+
+Footer ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+Footer ul a {
+  color: #ea8c55;
+}
+
+Footer img {
+  height: 3em;
 }
 
 .dark-mode {
